@@ -1,0 +1,12 @@
+{% extends "admin/base_site.html" %}
+{% load i18n %}
+
+{% block title %}{% trans 'Oops: Page not found' %}{% endblock %}
+
+{% block content %}
+
+<h2>{% trans 'OOPS: Page not found' %}</h2>
+
+<p>{% trans 'LMAO, We’re kinda sorry, but the requested page could not be found. Better Luck Next Time' %}</p>
+
+{% endblock %}
